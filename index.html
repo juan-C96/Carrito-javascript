@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <script defer src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+    <script defer src="js/tienda.js"></script>
+    <script defer src="js/accordion.js"></script>
+    <script defer src="js/main.js"></script>
+
+
+    <title>Tienda</title>
+</head>
+
+<body>
+<header>
+  <nav class="navbar navbar-dark bg-dark">
+  </nav>
+    <div class="container">
+        <h1 class="text-center" center>Mi tienda con Javascript</h1>
+        <hr>
+    </div>
+</header>
+
+<div class="block-store">
+    <h1 class="text-center">Productos</h1>
+    <hr>
+    <section class="store">
+        <div class="container">
+            <div class="items">
+                <div id="container-main">
+                    <div class="accordion-container">
+                        <a href="#" class="accordion-titulo">TV, vídeo y home cinema<span
+                                class="toggle-icon"></span></a>
+                        <div class="accordion-content">
+                            <div class="items1">
+                            
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-container">
+                        <a href="#" class="accordion-titulo">Comunicación móvil y accesorios<span
+                                class="toggle-icon"></span></a>
+                        <div class="accordion-content">
+                            <div class="items2">
+                            
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-container">
+                        <a href="#" class="accordion-titulo">Informática<span class="toggle-icon"></span></a>
+                        <div class="accordion-content">
+                            <div class="items3">
+                            
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<div class="block-section">
+    <h1 class="text-center">CARRITO</h1>
+    <hr>
+    <section class="shopping-cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="shopping-cart-header">
+                        <h6>Producto</h6>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="shopping-cart-header">
+                        <h6 class="text-truncate">Precio</h6>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="shopping-cart-header">
+                        <h6>Cantidad</h6>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="shopping-cart-items shoppingCartItemsContainer">
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="shopping-cart-total d-flex align-items-center">
+                        <p class="mb-0">Total</p>
+                        <p class="ml-4 mb-0 shoppingCartTotal">0€</p>
+                        <div class="col-2">
+                            <button id="vaciarButton" onclick="removeAllShoopingCartItem()" class="btn btn-danger">Vaciar</button></div>
+                        <div class="col-2">
+                        <button class="btn btn-success ml-auto comprarButton" type="button" data-toggle="modal"
+                                data-target="#comprarModal">Comprar</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</div>
+
+<style>
+    img.expando {
+        margin: 10px;
+        vertical-align: top;
+    }
+</style>
+
+
+</body>
+
+</html>

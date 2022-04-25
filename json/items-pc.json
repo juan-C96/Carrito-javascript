@@ -1,0 +1,20 @@
+[
+  {
+    "id": "5",
+    "title": "ASUS ROG G513IC-HN004 - Portátil Gaming",
+    "codigo": "B097Q1QQMJ",
+    "caracteristicas": "Pantalla de 15.6, Procesador AMD Ryzen 7 4800H (8C/OctaCore 2.9 / 4.2GHz, 8MB), Memoria RAM de 16GB SO-DIMM DDR4 3200MHz, Almacenamiento de 512GB SSD M.2 NVMe PCIe, Tarjeta gráfica NVIDIA GeForce RTX 3050 4GB GDDR6 y Sin Sistema Operativo.",
+    "price": "947.50",
+    "image": "laptop.jpg",
+    "stock": "3"
+  },
+  {
+    "id": "6",
+    "title": "Hp Elite 8300 SFF - Ordenador de sobremesa",
+    "codigo": "B08HS66VPC",
+    "caracteristicas": "Procesador Intel Core i5-3470 caché de 6M, hasta 3,60 GHz, Memoria RAM 8GB DDR3, Almacenamiento de 240 GB SSD + 500GB HDD, Monitor de 22'' marca, modelo y color según stock y Sistema Operativo: Windows 10 PRO.",
+    "price": "329.00",
+    "image": "ordenador.jpg",
+    "stock": "15"
+  }
+]

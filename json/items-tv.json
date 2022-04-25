@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Samsung QLED 4K 2021 65Q74A - Smart TV",
+    "codigo": "B094JR16GX",
+    "caracteristicas": "TV Procesador QLED 4K con IA, 100% Volumen de color, Quantum HDR10+, Contrast Enhancer, Modo juego panorámico y Videollamadas desde el TV.",
+    "price": "899.00",
+    "image": "TV-samsung.jpg",
+    "stock": "0"
+  },
+  {
+    "id": "2",
+    "title": "Proyector WiFi Bluetooth Full HD 1080P 4K Soporte",
+    "codigo": "B08LSWGP31",
+    "caracteristicas": "Interfaz de hardware Bluetooth, USB, HDMI, Bluetooth 5. Marca WiMiUS, Potencia eléctrica de 10 vatios, Brillo 9000 lm, Resolución de pantalla 1920 x 1080 4K Ultra HD Píxeles.",
+    "price": "215.28",
+    "image": "proyector.jpg",
+    "stock": "8"
+  }
+]

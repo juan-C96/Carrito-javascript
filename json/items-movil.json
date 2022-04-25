@@ -1,0 +1,20 @@
+ [
+    {
+        "id": "3",
+        "title": "Samsung Galaxy S22 Ultra 5G Teléfono Móvil 256GB",
+        "codigo": "B09NRSFNCL",
+        "caracteristicas": "Android 11, Capacidad de almacenamiento de memoria 8 GB, Operador de servicios inalámbricos Todas las empresas de transportes, Tecnología de móvil de 5G y Componentes incluidos: Cable de datos USB-C, Adaptador de viaje, Expulsor de bandeja SIM, Herramienta de expulsión de pines, Teléfono.",
+        "price": "1299.00",
+        "image": "s22.jpeg",
+        "stock": "32"
+      },
+      {
+        "id": "4",
+        "title": "Amazfit GTS 2e Smartwatch Reloj Inteligente",
+        "codigo": "B08PD8SVF2",
+        "caracteristicas": "Marca Amazfit, Tamaño de pantalla 1.65 Pulgadas, Sistema operativo Android, Rango de edad (descripción) Erwachsener, Tecnología de conectividad GPS, Forma Asimétrico y Estilo GTS 2e.",
+        "price": "99.90",
+        "image": "smartW.jpg",
+        "stock": "11"
+      }
+ ]
